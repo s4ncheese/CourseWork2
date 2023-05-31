@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/cmake_add_subdirectory
+# Build directory: C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-build/test/cmake_add_subdirectory
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(cmake_add_subdirectory_configure "D:/EDU_Programs/CLion 2023.1.3/bin/cmake/win/x64/bin/cmake.exe" "-G" "Visual Studio 17 2022" "-Dnlohmann_json_source=C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src" "C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/cmake_add_subdirectory/project")
+  set_tests_properties(cmake_add_subdirectory_configure PROPERTIES  FIXTURES_SETUP "cmake_add_subdirectory" _BACKTRACE_TRIPLES "C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/cmake_add_subdirectory/CMakeLists.txt;1;add_test;C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/cmake_add_subdirectory/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(cmake_add_subdirectory_configure "D:/EDU_Programs/CLion 2023.1.3/bin/cmake/win/x64/bin/cmake.exe" "-G" "Visual Studio 17 2022" "-Dnlohmann_json_source=C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src" "C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/cmake_add_subdirectory/project")
+  set_tests_properties(cmake_add_subdirectory_configure PROPERTIES  FIXTURES_SETUP "cmake_add_subdirectory" _BACKTRACE_TRIPLES "C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/cmake_add_subdirectory/CMakeLists.txt;1;add_test;C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/cmake_add_subdirectory/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(cmake_add_subdirectory_configure "D:/EDU_Programs/CLion 2023.1.3/bin/cmake/win/x64/bin/cmake.exe" "-G" "Visual Studio 17 2022" "-Dnlohmann_json_source=C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src" "C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/cmake_add_subdirectory/project")
+  set_tests_properties(cmake_add_subdirectory_configure PROPERTIES  FIXTURES_SETUP "cmake_add_subdirectory" _BACKTRACE_TRIPLES "C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/cmake_add_subdirectory/CMakeLists.txt;1;add_test;C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/cmake_add_subdirectory/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(cmake_add_subdirectory_configure "D:/EDU_Programs/CLion 2023.1.3/bin/cmake/win/x64/bin/cmake.exe" "-G" "Visual Studio 17 2022" "-Dnlohmann_json_source=C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src" "C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/cmake_add_subdirectory/project")
+  set_tests_properties(cmake_add_subdirectory_configure PROPERTIES  FIXTURES_SETUP "cmake_add_subdirectory" _BACKTRACE_TRIPLES "C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/cmake_add_subdirectory/CMakeLists.txt;1;add_test;C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/cmake_add_subdirectory/CMakeLists.txt;0;")
+else()
+  add_test(cmake_add_subdirectory_configure NOT_AVAILABLE)
+endif()
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(cmake_add_subdirectory_build "D:/EDU_Programs/CLion 2023.1.3/bin/cmake/win/x64/bin/cmake.exe" "--build" ".")
+  set_tests_properties(cmake_add_subdirectory_build PROPERTIES  FIXTURES_REQUIRED "cmake_add_subdirectory" _BACKTRACE_TRIPLES "C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/cmake_add_subdirectory/CMakeLists.txt;7;add_test;C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/cmake_add_subdirectory/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(cmake_add_subdirectory_build "D:/EDU_Programs/CLion 2023.1.3/bin/cmake/win/x64/bin/cmake.exe" "--build" ".")
+  set_tests_properties(cmake_add_subdirectory_build PROPERTIES  FIXTURES_REQUIRED "cmake_add_subdirectory" _BACKTRACE_TRIPLES "C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/cmake_add_subdirectory/CMakeLists.txt;7;add_test;C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/cmake_add_subdirectory/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(cmake_add_subdirectory_build "D:/EDU_Programs/CLion 2023.1.3/bin/cmake/win/x64/bin/cmake.exe" "--build" ".")
+  set_tests_properties(cmake_add_subdirectory_build PROPERTIES  FIXTURES_REQUIRED "cmake_add_subdirectory" _BACKTRACE_TRIPLES "C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/cmake_add_subdirectory/CMakeLists.txt;7;add_test;C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/cmake_add_subdirectory/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(cmake_add_subdirectory_build "D:/EDU_Programs/CLion 2023.1.3/bin/cmake/win/x64/bin/cmake.exe" "--build" ".")
+  set_tests_properties(cmake_add_subdirectory_build PROPERTIES  FIXTURES_REQUIRED "cmake_add_subdirectory" _BACKTRACE_TRIPLES "C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/cmake_add_subdirectory/CMakeLists.txt;7;add_test;C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/cmake_add_subdirectory/CMakeLists.txt;0;")
+else()
+  add_test(cmake_add_subdirectory_build NOT_AVAILABLE)
+endif()

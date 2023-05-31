@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{14F0BDAB-367F-3D12-AE70-54BA8A4626EE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\bin\cmake.exe" -SC:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src -BC:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-build --check-stamp-file C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\CMakeFiles\3.25.2\CMakeCXXCompiler.cmake;C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\CMakeFiles\3.25.2\CMakeRCCompiler.cmake;C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\CMakeFiles\3.25.2\CMakeSystem.cmake;C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\cmake\config.cmake.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompiler.cmake.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCompilerIdDetection.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineCXXCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineCompileFeatures.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineCompilerABI.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineCompilerId.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineRCCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineSystem.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeFindBinUtils.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeParseImplicitLinkInfo.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeParseLibraryArchitecture.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeRCCompiler.cmake.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeRCInformation.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystem.cmake.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeTestCXXCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeTestCompilerCommon.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeTestRCCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CTest.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CTestTargets.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CTestUseLaunchers.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\TI-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CompilerId\VS-10.vcxproj.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\DartConfiguration.tcl.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\ExternalProject.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\GNUInstallDirs.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Internal\FeatureTesting.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-Determine-CXX.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\bin\cmake.exe" -SC:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src -BC:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-build --check-stamp-file C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\CMakeFiles\3.25.2\CMakeCXXCompiler.cmake;C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\CMakeFiles\3.25.2\CMakeRCCompiler.cmake;C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\CMakeFiles\3.25.2\CMakeSystem.cmake;C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\cmake\config.cmake.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompiler.cmake.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCompilerIdDetection.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineCXXCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineCompileFeatures.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineCompilerABI.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineCompilerId.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineRCCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineSystem.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeFindBinUtils.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeParseImplicitLinkInfo.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeParseLibraryArchitecture.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeRCCompiler.cmake.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeRCInformation.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystem.cmake.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeTestCXXCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeTestCompilerCommon.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeTestRCCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CTest.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CTestTargets.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CTestUseLaunchers.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\TI-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CompilerId\VS-10.vcxproj.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\DartConfiguration.tcl.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\ExternalProject.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\GNUInstallDirs.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Internal\FeatureTesting.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-Determine-CXX.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\bin\cmake.exe" -SC:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src -BC:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-build --check-stamp-file C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\CMakeFiles\3.25.2\CMakeCXXCompiler.cmake;C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\CMakeFiles\3.25.2\CMakeRCCompiler.cmake;C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\CMakeFiles\3.25.2\CMakeSystem.cmake;C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\cmake\config.cmake.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompiler.cmake.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCompilerIdDetection.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineCXXCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineCompileFeatures.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineCompilerABI.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineCompilerId.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineRCCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineSystem.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeFindBinUtils.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeParseImplicitLinkInfo.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeParseLibraryArchitecture.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeRCCompiler.cmake.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeRCInformation.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystem.cmake.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeTestCXXCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeTestCompilerCommon.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeTestRCCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CTest.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CTestTargets.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CTestUseLaunchers.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\TI-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CompilerId\VS-10.vcxproj.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\DartConfiguration.tcl.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\ExternalProject.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\GNUInstallDirs.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Internal\FeatureTesting.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-Determine-CXX.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\bin\cmake.exe" -SC:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src -BC:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-build --check-stamp-file C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\CMakeFiles\3.25.2\CMakeCXXCompiler.cmake;C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\CMakeFiles\3.25.2\CMakeRCCompiler.cmake;C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\CMakeFiles\3.25.2\CMakeSystem.cmake;C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\cmake\config.cmake.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompiler.cmake.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCompilerIdDetection.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineCXXCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineCompileFeatures.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineCompilerABI.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineCompilerId.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineRCCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeDetermineSystem.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeFindBinUtils.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeParseImplicitLinkInfo.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeParseLibraryArchitecture.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeRCCompiler.cmake.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeRCInformation.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystem.cmake.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeTestCXXCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeTestCompilerCommon.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeTestRCCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CTest.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CTestTargets.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CTestUseLaunchers.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\TI-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\CompilerId\VS-10.vcxproj.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\DartConfiguration.tcl.in;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\ExternalProject.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\GNUInstallDirs.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Internal\FeatureTesting.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-Determine-CXX.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\ZERO_CHECK.vcxproj">
+      <Project>{C38E6292-797D-31A7-AF93-214BB8A9653C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\doctest_main.vcxproj">
+      <Project>{A9A1AEB2-29E3-3BC4-A1E5-39C3F206F12B}</Project>
+      <Name>doctest_main</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-algorithms.vcxproj">
+      <Project>{3DD0615D-97D0-3207-886E-3DAD75541AAC}</Project>
+      <Name>test-algorithms</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-allocator.vcxproj">
+      <Project>{6343FAD4-31E5-3F03-941B-C34CEE0AC150}</Project>
+      <Name>test-allocator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-alt-string.vcxproj">
+      <Project>{EBA8981E-3A35-358B-9F36-043DA0F31D91}</Project>
+      <Name>test-alt-string</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-bson.vcxproj">
+      <Project>{F1AAB28E-3B3D-3CE9-BEDA-AFE181FD5F0C}</Project>
+      <Name>test-bson</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-capacity.vcxproj">
+      <Project>{4F023D20-2DF4-3176-A3E5-706FD11E30EA}</Project>
+      <Name>test-capacity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-cbor.vcxproj">
+      <Project>{7FAD5D5E-B4D3-3FA6-B872-82A205F6A85C}</Project>
+      <Name>test-cbor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-class_const_iterator.vcxproj">
+      <Project>{D5680BBE-FC38-3822-B9CC-8D41582D1CAF}</Project>
+      <Name>test-class_const_iterator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-class_iterator.vcxproj">
+      <Project>{26E650CC-06EE-3C26-A59C-36B920C81156}</Project>
+      <Name>test-class_iterator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-class_lexer.vcxproj">
+      <Project>{D7165B9C-BAE2-30E1-8480-40A98E4BE691}</Project>
+      <Name>test-class_lexer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-class_parser.vcxproj">
+      <Project>{0582B38F-BE30-3946-872B-7291F96669E1}</Project>
+      <Name>test-class_parser</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-comparison.vcxproj">
+      <Project>{45219080-FBA2-31A4-B983-840205D0D48A}</Project>
+      <Name>test-comparison</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-concepts.vcxproj">
+      <Project>{DB8CE63E-8680-380C-8642-8383D0FC916C}</Project>
+      <Name>test-concepts</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-constructor1.vcxproj">
+      <Project>{3C42F1AB-8F37-31D7-822F-B1472365A107}</Project>
+      <Name>test-constructor1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-constructor2.vcxproj">
+      <Project>{E8BFCB27-6CEB-371C-B633-5BCB8CA13FC1}</Project>
+      <Name>test-constructor2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-convenience.vcxproj">
+      <Project>{CECA0CBC-F1AC-3736-97AA-D9E9745E44F7}</Project>
+      <Name>test-convenience</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-conversions.vcxproj">
+      <Project>{12E419C6-79D4-3E2B-B489-58FDE0C06726}</Project>
+      <Name>test-conversions</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-deserialization.vcxproj">
+      <Project>{01B94578-6F58-37B5-A865-4D8873C4278D}</Project>
+      <Name>test-deserialization</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-element_access1.vcxproj">
+      <Project>{821BF758-E093-36EF-A72D-7C11FF4F1117}</Project>
+      <Name>test-element_access1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-element_access2.vcxproj">
+      <Project>{238F1251-E9F5-3FE5-A281-4DDE99660A3C}</Project>
+      <Name>test-element_access2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-inspection.vcxproj">
+      <Project>{2B714C53-605B-3B95-B583-887490CEEBAC}</Project>
+      <Name>test-inspection</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-items.vcxproj">
+      <Project>{A1DB0C16-1FDF-3794-B306-53AA3A9A52F2}</Project>
+      <Name>test-items</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-iterators1.vcxproj">
+      <Project>{6AD02EBF-CC05-36A8-9402-4BE3524AEBAB}</Project>
+      <Name>test-iterators1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-iterators2.vcxproj">
+      <Project>{223AB7FB-DED2-37CA-998C-FFDCC2F42748}</Project>
+      <Name>test-iterators2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-json_patch.vcxproj">
+      <Project>{E9E77925-842B-3D6B-BD29-9AC578708EB1}</Project>
+      <Name>test-json_patch</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-json_pointer.vcxproj">
+      <Project>{E6F145C5-BEFC-33C1-BD10-ABC6B3806F2F}</Project>
+      <Name>test-json_pointer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-large_json.vcxproj">
+      <Project>{43D6FDFE-EA3C-3AFC-B454-0166D8962A04}</Project>
+      <Name>test-large_json</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-merge_patch.vcxproj">
+      <Project>{1779BD21-F8B2-3C69-A71C-CD194EA65E90}</Project>
+      <Name>test-merge_patch</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-meta.vcxproj">
+      <Project>{4EC0A194-FD5B-3968-9917-E0571E118D26}</Project>
+      <Name>test-meta</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-modifiers.vcxproj">
+      <Project>{DCF97393-FAFA-37CE-8FB6-A538B4453F31}</Project>
+      <Name>test-modifiers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-msgpack.vcxproj">
+      <Project>{C9CA9F89-9B22-3728-96A1-C55F68C84F44}</Project>
+      <Name>test-msgpack</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-noexcept.vcxproj">
+      <Project>{883C575F-92D7-3EF6-B4C3-EAD637BA1971}</Project>
+      <Name>test-noexcept</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-pointer_access.vcxproj">
+      <Project>{F19BD9F4-DA52-3C8B-8922-00D0862B35DE}</Project>
+      <Name>test-pointer_access</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-readme.vcxproj">
+      <Project>{979AECCB-A854-392E-8ADF-6D725436B65E}</Project>
+      <Name>test-readme</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-reference_access.vcxproj">
+      <Project>{2A01D638-CE82-3FBB-9C1D-1F8CC45175A7}</Project>
+      <Name>test-reference_access</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-regression.vcxproj">
+      <Project>{46A6FC68-BB86-3A79-A02E-D55FC39B7004}</Project>
+      <Name>test-regression</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-serialization.vcxproj">
+      <Project>{6BB733AE-9013-3337-A524-0D5F5E5BE217}</Project>
+      <Name>test-serialization</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-testsuites.vcxproj">
+      <Project>{508357E3-972E-38CE-9539-9B8B39D6D437}</Project>
+      <Name>test-testsuites</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-to_chars.vcxproj">
+      <Project>{716EB0BD-D3EE-3FE1-8C36-3F960B784916}</Project>
+      <Name>test-to_chars</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-ubjson.vcxproj">
+      <Project>{FAD07242-F1CB-3B98-B35C-FE12F66A56EB}</Project>
+      <Name>test-ubjson</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-udt.vcxproj">
+      <Project>{E0BE1335-940D-3004-A693-A3602B9B53CB}</Project>
+      <Name>test-udt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-unicode.vcxproj">
+      <Project>{22202AED-0CE5-323F-ADFA-91D061609173}</Project>
+      <Name>test-unicode</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-wstring.vcxproj">
+      <Project>{65023F82-0633-3592-BC1B-CCDF4CAAC10F}</Project>
+      <Name>test-wstring</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Update mode="Client" Generator="ctest-3.25.2">
+	<Site>LAPTOP-JTPRBOVN</Site>
+	<BuildName>Win32-ninja</BuildName>
+	<BuildStamp>20230531-1708-Continuous</BuildStamp>
+	<StartDateTime>May 31 20:08 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</StartDateTime>
+	<StartTime>1685552916</StartTime>
+	<UpdateCommand>"D:/EDU Programs/Git/cmd/git.exe" "fetch"</UpdateCommand>
+	<UpdateType>GIT</UpdateType>
+	<Revision>e7b3b40b5a95bc74b9a7f662830a27c49ffc01b4</Revision>
+	<EndDateTime>May 31 20:08 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</EndDateTime>
+	<EndTime>1685552918</EndTime>
+	<ElapsedMinutes>0</ElapsedMinutes>
+	<UpdateReturnStatus>Update command failed:
+"D:/EDU Programs/Git/cmd/git.exe" "fetch"</UpdateReturnStatus>
+</Update>

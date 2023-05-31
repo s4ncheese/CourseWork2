@@ -1,0 +1,242 @@
+MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Checking Build System
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit.cpp
+  doctest_main.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\doctest_main.dir\Release\doctest_main.lib
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-algorithms.cpp
+  test-algorithms.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-algorithms.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-allocator.cpp
+  test-allocator.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-allocator.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-alt-string.cpp
+  test-alt-string.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-alt-string.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-bson.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\numeric(34,1): warning C4267: =: преобразование из "size_t" в "_Ty"; возможна потеря данных [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-bson.vcxproj]
+          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\single_include\nlohmann/json.hpp(12283,10): message : выполняется компиляция ссылки на экземпляр шаблон функции "_Ty std::accumulate<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const StringType,nlohmann::basic_json<std::map,std::vector,StringType,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>>>>>,unsigned long,nlohmann::detail::binary_writer<nlohmann::basic_json<std::map,std::vector,StringType,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>,uint8_t>::calc_bson_object_size::<lambda_e5bd58a6094206939e3f3e6639b7bbd1>>(const _InIt,const _InIt,_Ty,_Fn)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-bson.vcxproj]
+          with
+          [
+              _Ty=unsigned long,
+              StringType=std::string,
+              _InIt=std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::string,nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>>>>>,
+              _Fn=nlohmann::detail::binary_writer<nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>,uint8_t>::calc_bson_object_size::<lambda_e5bd58a6094206939e3f3e6639b7bbd1>
+          ]
+C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\single_include\nlohmann/json.hpp(12278,1): message : во время компиляции функции-члена класс шаблон "size_t nlohmann::detail::binary_writer<nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>,uint8_t>::calc_bson_object_size(const std::map<StringType,nlohmann::basic_json<std::map,std::vector,StringType,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>,std::less<StringType>,std::allocator<std::pair<const StringType,nlohmann::basic_json<std::map,std::vector,StringType,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>>>> &)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-bson.vcxproj]
+          with
+          [
+              StringType=std::string
+          ]
+C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\single_include\nlohmann/json.hpp(12294,41): message : выполняется компиляция ссылки на экземпляр шаблон функции "size_t nlohmann::detail::binary_writer<nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>,uint8_t>::calc_bson_object_size(const std::map<StringType,nlohmann::basic_json<std::map,std::vector,StringType,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>,std::less<StringType>,std::allocator<std::pair<const StringType,nlohmann::basic_json<std::map,std::vector,StringType,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>>>> &)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-bson.vcxproj]
+          with
+          [
+              StringType=std::string
+          ]
+C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\single_include\nlohmann/json.hpp(21405,1): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "nlohmann::detail::binary_writer<nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>,uint8_t>" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-bson.vcxproj]
+C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\single_include\nlohmann/json.hpp(21404,1): message : во время компиляции функции-члена класс шаблон "void nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>::to_bson(const nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer> &,nlohmann::detail::output_adapter<uint8_t,std::basic_string<CharType,std::char_traits<CharType>,std::allocator<uint8_t>>>)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-bson.vcxproj]
+          with
+          [
+              CharType=uint8_t
+          ]
+C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\test\src\unit-bson.cpp(588,26): message : выполняется компиляция ссылки на экземпляр шаблон функции "void nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>::to_bson(const nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer> &,nlohmann::detail::output_adapter<uint8_t,std::basic_string<CharType,std::char_traits<CharType>,std::allocator<uint8_t>>>)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-bson.vcxproj]
+          with
+          [
+              CharType=uint8_t
+          ]
+C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\single_include\nlohmann/json.hpp(22646,1): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-bson.vcxproj]
+  test-bson.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-bson.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-capacity.cpp
+  test-capacity.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-capacity.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-cbor.cpp
+  test-cbor.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-cbor.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-class_const_iterator.cpp
+  test-class_const_iterator.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-class_const_iterator.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-class_iterator.cpp
+  test-class_iterator.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-class_iterator.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-class_lexer.cpp
+  test-class_lexer.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-class_lexer.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-class_parser.cpp
+  test-class_parser.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-class_parser.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-comparison.cpp
+  test-comparison.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-comparison.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-concepts.cpp
+  test-concepts.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-concepts.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-constructor1.cpp
+  test-constructor1.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-constructor1.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-constructor2.cpp
+  test-constructor2.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-constructor2.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-convenience.cpp
+  test-convenience.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-convenience.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-conversions.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xutility(3919,9): error C2593: неоднозначный "оператор =" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-conversions.vcxproj]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3230,32): message : может быть "std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::initializer_list<_Elem>)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-conversions.vcxproj]
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3097,32): message : или       "std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&) noexcept" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-conversions.vcxproj]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xutility(3919,9): message : при попытке сопоставить список аргументов "(_Ty, const nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-conversions.vcxproj]
+          with
+          [
+              _Ty=std::string
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xutility(3931,1): message : выполняется компиляция ссылки на экземпляр шаблон функции "_OutIt std::_Copy_unchecked<_InIt,_InIt,_OutIt>(_InIt,_Sent,_OutIt)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-conversions.vcxproj]
+          with
+          [
+              _OutIt=std::string *,
+              _InIt=nlohmann::detail::iter_impl<const nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>>,
+              _Sent=nlohmann::detail::iter_impl<const nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>>
+          ]
+C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\single_include\nlohmann/json.hpp(3028,1): message : выполняется компиляция ссылки на экземпляр шаблон функции "_OutIt std::copy<nlohmann::detail::iter_impl<const nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>>,_Ty*>(_InIt,_InIt,_OutIt)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-conversions.vcxproj]
+          with
+          [
+              _OutIt=std::string *,
+              _Ty=std::string,
+              _InIt=nlohmann::detail::iter_impl<const nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>>
+          ]
+C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\single_include\nlohmann/json.hpp(3248,1): message : выполняется компиляция ссылки на экземпляр шаблон функции "void nlohmann::detail::from_json<BasicJsonType,std::string,0>(const BasicJsonType &,std::valarray<std::string> &)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-conversions.vcxproj]
+          with
+          [
+              BasicJsonType=nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>
+          ]
+C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\single_include\nlohmann/json.hpp(3814,1): message : выполняется компиляция ссылки на экземпляр шаблон функции "void nlohmann::detail::from_json_fn::operator ()<nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>,ValueType>(const BasicJsonType &,T &) noexcept(false) const" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-conversions.vcxproj]
+          with
+          [
+              ValueType=std::valarray<std::string>,
+              BasicJsonType=nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>,
+              T=std::valarray<std::string>
+          ]
+C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\single_include\nlohmann/json.hpp(17186,1): message : выполняется компиляция ссылки на экземпляр шаблон функции "void nlohmann::adl_serializer<T,void>::from_json<const nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>&,T>(BasicJsonType,ValueType &) noexcept(false)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-conversions.vcxproj]
+          with
+          [
+              T=std::valarray<std::string>,
+              BasicJsonType=const nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer> &,
+              ValueType=std::valarray<std::string>
+          ]
+C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\single_include\nlohmann/json.hpp(17186,45): message : выполняется компиляция ссылки на экземпляр шаблон функции "void nlohmann::adl_serializer<T,void>::from_json<const nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>&,T>(BasicJsonType,ValueType &) noexcept(false)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-conversions.vcxproj]
+          with
+          [
+              T=std::valarray<std::string>,
+              BasicJsonType=const nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer> &,
+              ValueType=std::valarray<std::string>
+          ]
+C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\test\src\unit-conversions.cpp(1387,52): message : выполняется компиляция ссылки на экземпляр шаблон функции "ValueType nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>::get<std::valarray<std::string>,std::valarray<std::string>,0>(void) noexcept(false) const" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-conversions.vcxproj]
+          with
+          [
+              ValueType=std::valarray<std::string>
+          ]
+C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\test\src\unit-conversions.cpp(1387,51): message : выполняется компиляция ссылки на экземпляр шаблон функции "ValueType nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>::get<std::valarray<std::string>,std::valarray<std::string>,0>(void) noexcept(false) const" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-conversions.vcxproj]
+          with
+          [
+              ValueType=std::valarray<std::string>
+          ]
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-deserialization.cpp
+  test-deserialization.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-deserialization.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-element_access1.cpp
+  test-element_access1.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-element_access1.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-element_access2.cpp
+  test-element_access2.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-element_access2.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-inspection.cpp
+  test-inspection.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-inspection.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-items.cpp
+  test-items.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-items.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-iterators1.cpp
+  test-iterators1.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-iterators1.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-iterators2.cpp
+  test-iterators2.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-iterators2.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-json_patch.cpp
+  test-json_patch.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-json_patch.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-json_pointer.cpp
+  test-json_pointer.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-json_pointer.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-large_json.cpp
+  test-large_json.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-large_json.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-merge_patch.cpp
+  test-merge_patch.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-merge_patch.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-meta.cpp
+  test-meta.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-meta.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-modifiers.cpp
+  test-modifiers.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-modifiers.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-msgpack.cpp
+  test-msgpack.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-msgpack.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-noexcept.cpp
+  test-noexcept.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-noexcept.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-pointer_access.cpp
+  test-pointer_access.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-pointer_access.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-readme.cpp
+  test-readme.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-readme.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-reference_access.cpp
+  test-reference_access.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-reference_access.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-regression.cpp
+C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\test\src\unit-regression.cpp(463,9): error C2593: неоднозначный "оператор =" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-regression.vcxproj]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3230,32): message : может быть "std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::initializer_list<_Elem>)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-regression.vcxproj]
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3097,32): message : или       "std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&) noexcept(<expr>)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-regression.vcxproj]
+C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\test\src\unit-regression.cpp(463,9): message : при попытке сопоставить список аргументов "(std::string, nlohmann::basic_json<std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer>)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-regression.vcxproj]
+C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\test\src\unit-regression.cpp(1234,9): error C2593: неоднозначный "оператор =" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-regression.vcxproj]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3230,32): message : может быть "std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::initializer_list<_Elem>)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-regression.vcxproj]
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3097,32): message : или       "std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&) noexcept(<expr>)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-regression.vcxproj]
+C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\test\src\unit-regression.cpp(1234,9): message : при попытке сопоставить список аргументов "(std::string, nlohmann::json)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-regression.vcxproj]
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-serialization.cpp
+  test-serialization.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-serialization.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-testsuites.cpp
+  test-testsuites.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-testsuites.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-to_chars.cpp
+  test-to_chars.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-to_chars.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-ubjson.cpp
+  test-ubjson.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-ubjson.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-udt.cpp
+  test-udt.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-udt.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-unicode.cpp
+  test-unicode.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-unicode.exe
+  Building Custom Rule C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-src/test/CMakeLists.txt
+  unit-wstring.cpp
+  test-wstring.vcxproj -> C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-wstring.exe

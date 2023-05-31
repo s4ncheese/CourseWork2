@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\test\src\unit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{07F67FA1-22C1-32E7-BA14-4ED59248CF1E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

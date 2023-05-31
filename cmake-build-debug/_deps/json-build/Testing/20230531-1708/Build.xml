@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-MSBuild"
+	BuildStamp="20230531-1708-Continuous"
+	Name="LAPTOP-JTPRBOVN"
+	Generator="ctest-3.25.2"
+	CompilerName="C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.34.31933/bin/Hostx64/x64/cl.exe"
+	CompilerVersion="19.34.31937.0"
+	OSName="Windows"
+	Hostname="LAPTOP-JTPRBOVN"
+	OSRelease=" Personal"
+	OSVersion=" (Build 22621)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="15"
+	ModelID="0"
+	ProcessorCacheSize="64"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="16765"
+	TotalPhysicalMemory="7549"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2994"
+	>
+	<Build>
+		<StartDateTime>May 31 20:08 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</StartDateTime>
+		<StartBuildTime>1685552923</StartBuildTime>
+		<BuildCommand>"D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\bin\cmake.exe" --build . --config "Release"</BuildCommand>
+		<Warning>
+			<BuildLogLine>17</BuildLogLine>
+			<Text>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\numeric(34,1): warning C4267: =: преобразование из "size_t" в "_Ty"; возможна потеря данных [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-bson.vcxproj]</Text>
+			<PreContext>  unit-algorithms.cpp
+  test-algorithms.vcxproj -&gt; C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-algorithms.exe
+  Building Custom Rule /.../json-src/test/CMakeLists.txt
+  unit-allocator.cpp
+  test-allocator.vcxproj -&gt; C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-allocator.exe
+  Building Custom Rule /.../json-src/test/CMakeLists.txt
+  unit-alt-string.cpp
+  test-alt-string.vcxproj -&gt; C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-alt-string.exe
+  Building Custom Rule /.../json-src/test/CMakeLists.txt
+  unit-bson.cpp
+</PreContext>
+			<PostContext>          with
+          [
+              _Ty=unsigned long
+          ]
+C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\single_include\nlohmann/json.hpp(12283,10): message : выполняется компиляция ссылки на экземпляр шаблон функции "_Ty std::accumulate&lt;std::_Tree_const_iterator&lt;std::_Tree_val&lt;std::_Tree_simple_types&lt;std::pair&lt;const StringType,nlohmann::basic_json&lt;std::map,std::vector,StringType,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer&gt;&gt;&gt;&gt;&gt;,unsigned long,nlohmann::detail::binary_writer&lt;nlohmann::basic_json&lt;std::map,std::vector,StringType,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer&gt;,uint8_t&gt;::calc_bson_object_size::&lt;lambda_e5bd58a6094206939e3f3e6639b7bbd1&gt;&gt;(const _InIt,const _InIt,_Ty,_Fn)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-bson.vcxproj]
+          with
+          [
+              _Ty=unsigned long,
+              StringType=std::string,
+              _InIt=std::_Tree_const_iterator&lt;std::_Tree_val&lt;std::_Tree_simple_types&lt;std::pair&lt;const std::string,nlohmann::basic_json&lt;std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer&gt;&gt;&gt;&gt;&gt;,</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Error>
+			<BuildLogLine>88</BuildLogLine>
+			<Text>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xutility(3919,9): error C2593: неоднозначный "оператор =" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-conversions.vcxproj]</Text>
+			<PreContext>  unit-constructor1.cpp
+  test-constructor1.vcxproj -&gt; C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-constructor1.exe
+  Building Custom Rule /.../json-src/test/CMakeLists.txt
+  unit-constructor2.cpp
+  test-constructor2.vcxproj -&gt; C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-constructor2.exe
+  Building Custom Rule /.../json-src/test/CMakeLists.txt
+  unit-convenience.cpp
+  test-convenience.vcxproj -&gt; C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-convenience.exe
+  Building Custom Rule /.../json-src/test/CMakeLists.txt
+  unit-conversions.cpp
+</PreContext>
+			<PostContext>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3230,32): message : может быть "std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt;&gt; &amp;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt;&gt;::operator =(std::initializer_list&lt;_Elem&gt;)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-conversions.vcxproj]
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3097,32): message : или       "std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt;&gt; &amp;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt;&gt;::operator =(std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt;&gt; &amp;&amp;) noexcept" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-conversions.vcxproj]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xutility(3919,9): message : при попытке сопоставить список аргументов "(_Ty, const nlohmann::basic_json&lt;std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer&gt;)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-conversions.vcxproj]
+          with
+          [
+              _Ty=std::string</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Error>
+		<Error>
+			<BuildLogLine>206</BuildLogLine>
+			<Text>C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\test\src\unit-regression.cpp(463,9): error C2593: неоднозначный "оператор =" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-regression.vcxproj]</Text>
+			<PreContext>  unit-pointer_access.cpp
+  test-pointer_access.vcxproj -&gt; C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-pointer_access.exe
+  Building Custom Rule /.../json-src/test/CMakeLists.txt
+  unit-readme.cpp
+  test-readme.vcxproj -&gt; C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-readme.exe
+  Building Custom Rule /.../json-src/test/CMakeLists.txt
+  unit-reference_access.cpp
+  test-reference_access.vcxproj -&gt; C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-reference_access.exe
+  Building Custom Rule /.../json-src/test/CMakeLists.txt
+  unit-regression.cpp
+</PreContext>
+			<PostContext>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3230,32): message : может быть "std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt;&gt; &amp;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt;&gt;::operator =(std::initializer_list&lt;_Elem&gt;)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-regression.vcxproj]
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3097,32): message : или       "std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt;&gt; &amp;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt;&gt;::operator =(std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt;&gt; &amp;&amp;) noexcept(&lt;expr&gt;)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-regression.vcxproj]
+C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\test\src\unit-regression.cpp(463,9): message : при попытке сопоставить список аргументов "(std::string, nlohmann::basic_json&lt;std::map,std::vector,std::string,bool,int64_t,uint64_t,double,std::allocator,nlohmann::adl_serializer&gt;)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-regression.vcxproj]
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Error>
+		<Error>
+			<BuildLogLine>214</BuildLogLine>
+			<Text>C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\test\src\unit-regression.cpp(1234,9): error C2593: неоднозначный "оператор =" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-regression.vcxproj]</Text>
+			<PreContext></PreContext>
+			<PostContext>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3230,32): message : может быть "std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt;&gt; &amp;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt;&gt;::operator =(std::initializer_list&lt;_Elem&gt;)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-regression.vcxproj]
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3097,32): message : или       "std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt;&gt; &amp;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt;&gt;::operator =(std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt;&gt; &amp;&amp;) noexcept(&lt;expr&gt;)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-regression.vcxproj]
+C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\test\src\unit-regression.cpp(1234,9): message : при попытке сопоставить список аргументов "(std::string, nlohmann::json)" [C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\test-regression.vcxproj]
+  Building Custom Rule /.../json-src/test/CMakeLists.txt
+  unit-serialization.cpp
+  test-serialization.vcxproj -&gt; C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\Release\test-serialization.exe</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Error>
+		<Warning>
+			<BuildLogLine>1</BuildLogLine>
+			<Text>*** WARNING non-zero return value in ctest from: D:\EDU_Programs\CLion 2023.1.3\bin\cmake\win\x64\bin\cmake.exe</Text>
+			<PreContext></PreContext>
+			<PostContext></PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Log Encoding="base64" Compression="bin/gzip"/>
+		<EndDateTime>May 31 20:10 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</EndDateTime>
+		<EndBuildTime>1685553004</EndBuildTime>
+		<ElapsedMinutes>1</ElapsedMinutes>
+	</Build>
+</Site>

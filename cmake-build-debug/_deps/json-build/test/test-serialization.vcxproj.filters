@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\test\src\unit-serialization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-src\nlohmann_json.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Projects\CLionProjects\CourseWork\cmake-build-debug\_deps\json-build\test\doctest_main.dir\$(Configuration)\unit.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{AAE7598F-3D0F-37FE-AB57-5BC312F95861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{07F67FA1-22C1-32E7-BA14-4ED59248CF1E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

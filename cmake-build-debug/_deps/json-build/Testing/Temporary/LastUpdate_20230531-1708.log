@@ -1,0 +1,30 @@
+--- Begin Cleanup ---
+--- End Cleanup ---
+"D:/EDU Programs/Git/cmd/git.exe" "rev-list" "-n" "1" "HEAD" "--"
+rl-out> e7b3b40b5a95bc74b9a7f662830a27c49ffc01b4
+--- Begin Update ---
+"D:/EDU Programs/Git/cmd/git.exe" "fetch"
+"D:/EDU Programs/Git/cmd/git.exe" "rev-parse" "--git-dir"
+rev-parse-out> .git
+FETCH_HEAD> f9003d169b286accbfecbabeaa57a459f83c8eeb	not-for-merge	branch 'bon8' of https://github.com/nlohmann/json
+FETCH_HEAD> 6496e13b0718a5ad953f1c5daa3c53e9fad4f35b	not-for-merge	branch 'coverity_scan' of https://github.com/nlohmann/json
+FETCH_HEAD> 78731a7875a3c7fc5a956d9ee91b3377fc4f7286	not-for-merge	branch 'dependabot/pip/docs/mkdocs/pymdown-extensions-10.0' of https://github.com/nlohmann/json
+FETCH_HEAD> 7b69f6800bc5e3c8875cc73cda6bad3e1d3927f4	not-for-merge	branch 'dependabot/pip/docs/mkdocs/requests-2.31.0' of https://github.com/nlohmann/json
+FETCH_HEAD> c140f4fec949ca472049469cedbaeb3eea736bee	not-for-merge	branch 'dependabot/pip/docs/mkdocs/tornado-6.3.2' of https://github.com/nlohmann/json
+FETCH_HEAD> a0c1318830519eac027a31edec1a99ce1ae5670e	not-for-merge	branch 'develop' of https://github.com/nlohmann/json
+FETCH_HEAD> 7ffd3ae400d5d42d8b1a5538b8ef505a8de6d6c9	not-for-merge	branch 'feature/optional' of https://github.com/nlohmann/json
+FETCH_HEAD> 55f10f44a9adf1abc0dbeb3c4ca1b6417faae434	not-for-merge	branch 'gh-pages' of https://github.com/nlohmann/json
+FETCH_HEAD> c13ecd534445ae917058e01115112c569d991e0d	not-for-merge	branch 'issue2228' of https://github.com/nlohmann/json
+FETCH_HEAD> ffdeb77468040576f7fcd1a0ba932725295a22ea	not-for-merge	branch 'issue2615' of https://github.com/nlohmann/json
+FETCH_HEAD> bc889afb4c5bf1c0d8ee29ef35eaaf4c8bef8a5d	not-for-merge	branch 'master' of https://github.com/nlohmann/json
+FETCH_HEAD> 350e37390dd879bcd4192bc34e6c3934c970e2a5	not-for-merge	branch 'update_doctest_2.4.9' of https://github.com/nlohmann/json
+FETCH_HEAD has no upstream branch candidate!
+--- End Update ---
+"D:/EDU Programs/Git/cmd/git.exe" "rev-list" "-n" "1" "HEAD" "--"
+rl-out> e7b3b40b5a95bc74b9a7f662830a27c49ffc01b4
+--- Begin Revisions ---
+"D:/EDU Programs/Git/cmd/git.exe" "rev-list" "--reverse" "e7b3b40b5a95bc74b9a7f662830a27c49ffc01b4..e7b3b40b5a95bc74b9a7f662830a27c49ffc01b4" "--" | "D:/EDU Programs/Git/cmd/git.exe" "diff-tree" "--stdin" "--always" "-z" "-r" "--pretty=raw" "--encoding=utf-8"
+dt-out> 
+"D:/EDU Programs/Git/cmd/git.exe" "update-index" "--refresh"
+"D:/EDU Programs/Git/cmd/git.exe" "diff-index" "-z" "HEAD" "--"
+--- End Revisions ---

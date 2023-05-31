@@ -1,0 +1,9 @@
+Upload files:
+0	Update.xml
+1	Configure.xml
+2	Build.xml
+3	Done.xml
+	Upload file: C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-build/Testing/20230531-1708/Update.xml to LAPTOP-JTPRBOVN___Win32-MSBuild___20230531-1708-Continuous___XML___Update.xml
+   Error when uploading file: C:/Projects/CLionProjects/CourseWork/cmake-build-debug/_deps/json-build/Testing/20230531-1708/Update.xml
+   Error message was: 
+   Problems when submitting via HTTP
